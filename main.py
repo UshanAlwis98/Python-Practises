@@ -56,7 +56,7 @@
 # Day 01 Final Task
 
 #1. Create a greeting for your program.
-print("Click Run to run the final project you will build.")
+print("Welcome to the Band Name Generator.\n")
 
 #2. Ask the user for the city that they grew up in.
 home_Town = input("What's the name of the city you grew up in?\n")
