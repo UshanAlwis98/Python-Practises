@@ -1,6 +1,4 @@
 # Print Statement
-
-
 # print('Hello World') # Single Quote
 # print("Hello World") # Double Quote
 # print('She Said: "I am hungry"') # Double Quote inside Single Quote
@@ -9,17 +7,25 @@
 # print("Hello World Line one \nHello World Line Two\nHello World Line Three") # Line by Line Break
 # print("Hello"+" "+"Ushan") #String Concatenation
 
-# Input Prompt Statement
 
+
+# Input Prompt Statement
 # input("What's Your Name?")
-#
 # print("Hello " + input("What's your name ?"))
 
 
 # Input len() Function
-myFirstNameLength = len(input())
-myLastNameLength = len(input())
+# myFirstNameLength = len(input())
+# myLastNameLength = len(input())
+# print(myFirstNameLength * myLastNameLength)
 
-print(myFirstNameLength * myLastNameLength)
+# Python Variables
+name = input("What's Your Name?")
+nameLength = len(name)
+print(nameLength)
+
+
+
+
 
 
