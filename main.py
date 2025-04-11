@@ -33,13 +33,22 @@
 # print(b)
 
 # Python Variables Challange 02
-days = 7
-hours_per_day = 24
-minutes_per_hour = 60
-total_minutes = (minutes_per_hour * hours_per_day * days)
+# days = 7
+# hours_per_day = 24
+# minutes_per_hour = 60
+# total_minutes = (minutes_per_hour * hours_per_day * days)
 
 
+# Python Variables Challange 03
+alice_spent = 420
+bob_spent = 380
+charlie_spent = 300
 
+equal_share = (alice_spent + bob_spent + charlie_spent) / 3
+print(equal_share)
 
+alice_balance = (alice_spent - equal_share)
+bob_balance = (bob_spent - equal_share)
+charlie_balance = (charlie_spent - equal_share)
 
 
