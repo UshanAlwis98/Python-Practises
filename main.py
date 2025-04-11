@@ -20,9 +20,21 @@
 # print(myFirstNameLength * myLastNameLength)
 
 # Python Variables
-name = input("What's Your Name?")
-nameLength = len(name)
-print(nameLength)
+# name = input("What's Your Name?")
+# nameLength = len(name)
+# print(nameLength)
+
+
+# Python Variables Challange
+
+a = 7
+b = 12
+
+a,b = b,a
+
+print(a)
+print(b)
+
 
 
 
