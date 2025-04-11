@@ -25,16 +25,18 @@
 # print(nameLength)
 
 
-# Python Variables Challange
+# Python Variables Challange 01
+# a = 7
+# b = 12
+# a,b = b,a
+# print(a)
+# print(b)
 
-a = 7
-b = 12
-
-a,b = b,a
-
-print(a)
-print(b)
-
+# Python Variables Challange 02
+days = 7
+hours_per_day = 24
+minutes_per_hour = 60
+total_minutes = (minutes_per_hour * hours_per_day * days)
 
 
 
