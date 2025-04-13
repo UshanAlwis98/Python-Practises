@@ -78,5 +78,10 @@ first_input = input("Enter the first Number\n")
 second_input = input("Enter the second Number\n")
 
 # Addition Operation
-addition_input = float(first_input)+float(second_input)
-print(f"The addition of  {first_input} and {second_input} is {addition_input}")
+addition_result = int(first_input)+ int(second_input)
+print(f"The addition of  {first_input} and {second_input} is {addition_result}")
+
+# Substraction Operation
+
+substraction_result = int(first_input)- int(second_input)
+print(f"The Substraction result is {substraction_result}")
