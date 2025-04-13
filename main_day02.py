@@ -62,10 +62,21 @@
 #Tip: There are 2 ways to round a number. You might have to do some Googling to solve this.💪
 
 #Write your code below this line 👇
-print("Welcome to the tip calculator!")
-total_amount = input("What was the total bill?\n")
-tip_amount = input("How much tip would you like to give? 10, 12, or 15?\n")
-num_of_people = input("How many people to split the bill?\n")
+# print("Welcome to the tip calculator!")
+# total_amount = input("What was the total bill?\n")
+# tip_amount = input("How much tip would you like to give? 10, 12, or 15?\n")
+# num_of_people = input("How many people to split the bill?\n")
+#
+# each_balance = ((float(total_amount)/100) * (100+float(tip_amount))) / int(num_of_people)
+# print(round(each_balance,2))
 
-each_balance = ((float(total_amount)/100) * (100+float(tip_amount))) / int(num_of_people)
-print(round(each_balance,2))
+
+
+# Python Day 02 Challange
+
+first_input = input("Enter the first Number\n")
+second_input = input("Enter the second Number\n")
+
+# Addition Operation
+addition_input = float(first_input)+float(second_input)
+print(f"The addition of  {first_input} and {second_input} is {addition_input}")
