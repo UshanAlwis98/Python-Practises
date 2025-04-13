@@ -37,4 +37,16 @@
 # Substraction -
 
 # print(3 * 3 + 3 / 3 -3 )
-print(round(8/3))
+# print(round(8/3,2))
+
+# floor_division = (8 // 3)
+# print(type(floor_division))
+
+# F String
+
+score = 5
+isWinning = True
+height = 3.2
+
+
+print(f"Your Current Score is {score} and height is {height} the winning value is {isWinning}")
