@@ -16,4 +16,22 @@
 # print(100 + float("70.5"))
 
 # Type Casting Example 03 - Add Casted two Strings
-print(str(70)+str(3221))
+# print(str(70)+str(3221))
+
+# Mathematical Operators
+print(5+3)
+print(5-3)
+print(5 * 3)
+print(16/4)
+print(3 ** 2)
+
+
+# Mathematical Operators Sequence
+
+# PEMDAS
+# Parentheses
+# Exponenets
+# Multiplication
+# Division
+# Addition
+# Substraction
