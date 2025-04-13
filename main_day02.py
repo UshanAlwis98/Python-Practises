@@ -19,19 +19,22 @@
 # print(str(70)+str(3221))
 
 # Mathematical Operators
-print(5+3)
-print(5-3)
-print(5 * 3)
-print(16/4)
-print(3 ** 2)
+# print(5+3)
+# print(5-3)
+# print(5 * 3)
+# print(16/4)
+# print(3 ** 2)
 
 
 # Mathematical Operators Sequence
 
 # PEMDAS
-# Parentheses
-# Exponenets
-# Multiplication
-# Division
-# Addition
-# Substraction
+# Parentheses ()
+# Exponenets **
+# Multiplication *
+# Division /
+# Addition +
+# Substraction -
+
+# print(3 * 3 + 3 / 3 -3 )
+print(round(8/3))
