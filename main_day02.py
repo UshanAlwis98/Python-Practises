@@ -81,7 +81,7 @@ second_input = input("Enter the second Number\n")
 addition_result = int(first_input)+ int(second_input)
 print(f"The addition of  {first_input} and {second_input} is {addition_result}")
 
-# Substraction Operation
 
+# Substraction Operation
 substraction_result = int(first_input)- int(second_input)
 print(f"The Substraction result is {substraction_result}")
