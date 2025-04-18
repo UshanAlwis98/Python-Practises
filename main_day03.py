@@ -25,9 +25,28 @@
 # Control Flow Challange
 
 first_digit = input("Enter Digit 1\n")
-second_digit = input("Enter Digit 2\n")
-third_digit = input("Enter Digit 3\n")
-fourth_digit = input("Enter Digit 4\n")
+
 
 if first_digit == "4":
-    print("ok")
+    second_digit = input("Enter Digit 2\n")
+
+    if first_digit == "4" and second_digit == "8":
+        third_digit = input("Enter Digit 3\n")
+
+
+        if first_digit == "4" and second_digit == "8" and third_digit == "7":
+            fourth_digit = input("Enter Digit 4\n")
+
+            if first_digit == "4" and second_digit == "8" and third_digit == "7" and fourth_digit == "2":
+                print("✅ Code cracked! Welcome, Agent.")
+
+            else:
+                print("Wrong Digit 1 and 2 and 3 and 4")
+
+        else:
+            print("Wrong Digit 3")
+
+    else:
+        print("Wrong Digit 2")
+else:
+    print("Wrong Digit 1")
