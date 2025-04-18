@@ -41,12 +41,12 @@ if first_digit == "4":
                 print("✅ Code cracked! Welcome, Agent.")
 
             else:
-                print("Wrong Digit 1 and 2 and 3 and 4")
+                print("Wrong digit. Access denied!")
 
         else:
-            print("Wrong Digit 3")
+            print("Wrong digit. Access denied!")
 
     else:
-        print("Wrong Digit 2")
+        print("Wrong digit. Access denied!")
 else:
-    print("Wrong Digit 1")
+    print("Wrong digit. Access denied!")
