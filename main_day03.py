@@ -24,3 +24,10 @@
 
 # Control Flow Challange
 
+first_digit = input("Enter Digit 1\n")
+second_digit = input("Enter Digit 2\n")
+third_digit = input("Enter Digit 3\n")
+fourth_digit = input("Enter Digit 4\n")
+
+if first_digit == "4":
+    print("ok")
