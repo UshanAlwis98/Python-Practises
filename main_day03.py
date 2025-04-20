@@ -22,7 +22,7 @@
 # else:
 #     print("You can not ride the RollerCoaster")
 
-# Control Flow Final Challange
+# Control Flow Final Challange(Chat GPT Question)
 
 first_digit = input("Enter Digit 1\n")
 
