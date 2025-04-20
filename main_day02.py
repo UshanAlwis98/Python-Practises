@@ -74,6 +74,7 @@
 
 # Python Day 02 Challange
 
+
 first_input = input("Enter the first Number\n")
 second_input = input("Enter the second Number\n")
 
