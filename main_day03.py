@@ -22,7 +22,7 @@
 # else:
 #     print("You can not ride the RollerCoaster")
 
-# Control Flow Challange
+# Control Flow Final Challange
 
 first_digit = input("Enter Digit 1\n")
 
