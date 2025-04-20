@@ -26,7 +26,6 @@
 
 first_digit = input("Enter Digit 1\n")
 
-
 if first_digit == "4":
     second_digit = input("Enter Digit 2\n")
 
