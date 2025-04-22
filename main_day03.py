@@ -60,15 +60,15 @@ extra_cheese = input()  # Do you want extra cheese? Y or N
 # 🚨 Don't change the code above 👆
 # Write your code below this line 👇
 price_of_small_pizza = 15
+
 if size == "S":
    if add_pepperoni == "Y":
-       print(f"Your final bill is: ${17}")
-            if extra_cheese == "Y":
-                    print(f"Your final bill is: ${18}")
-            else:
-                    print(f"Your final bill is: ${18}")
+      if extra_cheese == "Y":
+        print(f"Your final bill is: ${18}")
+      else:
+                print(f"Your final bill is: ${17}")
    else:
-       print(f"Your final bill is: ${15}")
+          print(f"Your final bill is: ${15}")
 
 elif size == "M":
     print("N/A")
