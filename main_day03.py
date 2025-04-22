@@ -133,7 +133,24 @@
 # print(f"Your final bill is:{Bill}")
 
 # Logical Operator Challange beginning
+print("The Love Calculator is calculating your score...")
+name1 = input() # What is your name?
+name2 = input() # What is their name?
+# 🚨 Don't change the code above 👆
+# Write your code below this line 👇
+letter_T = name1.lower().count("t") + name2.lower().count("t")
+letter_R = name1.lower().count("r") + name2.lower().count("r")
+letter_U = name1.lower().count("u") + name2.lower().count("u")
+letter_E = name1.lower().count("e") + name2.lower().count("e")
+total_letters_in_true = print(letter_T + letter_R + letter_U + letter_E)
 
+letter_L = name1.lower().count("l") + name2.lower().count("l")
+letter_O = name1.lower().count("o") + name2.lower().count("o")
+letter_V = name1.lower().count("v") + name2.lower().count("v")
+letter_love_E = name1.lower().count("e") + name2.lower().count("e")
+total_letters_in_love = print(letter_L + letter_O + letter_V + letter_love_E)
+
+print(total_letters_in_true and total_letters_in_love)
 
 
 
