@@ -60,6 +60,12 @@ extra_cheese = input()  # Do you want extra cheese? Y or N
 # 🚨 Don't change the code above 👆
 # Write your code below this line 👇
 
-if (size == "S"):
-    print("Your final bill is:")
+if size == "S":
+    print("Your final bill is: $15.")
+
+elif size == "M":
+    print("Your final bill is: $20.")
+
+else:
+    print("Your final bill is: $25.")
 
