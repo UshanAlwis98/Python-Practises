@@ -138,19 +138,31 @@ name1 = input() # What is your name?
 name2 = input() # What is their name?
 # 🚨 Don't change the code above 👆
 # Write your code below this line 👇
-letter_T = name1.lower().count("t") + name2.lower().count("t")
-letter_R = name1.lower().count("r") + name2.lower().count("r")
-letter_U = name1.lower().count("u") + name2.lower().count("u")
-letter_E = name1.lower().count("e") + name2.lower().count("e")
-total_letters_in_true = print(letter_T + letter_R + letter_U + letter_E)
+# Count letters for TRUE
+combined_names = (name1 + name2).lower()
+t = combined_names.count("t")
+r = combined_names.count("r")
+u = combined_names.count("u")
+e = combined_names.count("e")
+true_score = t + r + u + e
 
-letter_L = name1.lower().count("l") + name2.lower().count("l")
-letter_O = name1.lower().count("o") + name2.lower().count("o")
-letter_V = name1.lower().count("v") + name2.lower().count("v")
-letter_love_E = name1.lower().count("e") + name2.lower().count("e")
-total_letters_in_love = print(letter_L + letter_O + letter_V + letter_love_E)
+# Count letters for LOVE
+l = combined_names.count("l")
+o = combined_names.count("o")
+v = combined_names.count("v")
+e2 = combined_names.count("e")
+love_score = l + o + v + e2
 
-print(total_letters_in_true and total_letters_in_love)
+# Combine scores as string and convert back to int
+final_score = int(str(true_score) + str(love_score))
+
+# Output based on score
+if final_score < 10 or final_score > 90:
+    print(f"Your score is {final_score}, you go together like coke and mentos.")
+elif 40 <= final_score <= 50:
+    print(f"Your score is {final_score}, you are alright together.")
+else:
+    print(f"Your score is {final_score}.")
 
 
 
