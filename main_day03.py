@@ -60,19 +60,45 @@ extra_cheese = input()  # Do you want extra cheese? Y or N
 # 🚨 Don't change the code above 👆
 # Write your code below this line 👇
 price_of_small_pizza = 15
+price_of_medium_pizza = 20
+price_of_large_pizza =25
 
 if size == "S":
    if add_pepperoni == "Y":
       if extra_cheese == "Y":
-        print(f"Your final bill is: ${18}")
+        print(f"Your final bill is: ${price_of_small_pizza + 3}")
       else:
-                print(f"Your final bill is: ${17}")
+                print(f"Your final bill is: ${price_of_small_pizza +2}")
+
+   elif size == "S" and add_pepperoni == "N" and extra_cheese == "Y":
+       print(f"Your final bill is: ${price_of_small_pizza + 1}")
+
    else:
-          print(f"Your final bill is: ${15}")
+       print(f"Your final bill is: ${price_of_small_pizza}")
 
 elif size == "M":
-    print("N/A")
+    if add_pepperoni == "Y":
+        if extra_cheese == "Y":
+            print(f"Your final bill is: ${price_of_medium_pizza + 4}")
+        else:
+            print(f"Your final bill is: ${price_of_medium_pizza + 3}")
+
+    elif size == "M" and add_pepperoni == "N" and extra_cheese == "Y":
+        print(f"Your final bill is: ${price_of_medium_pizza + 1}")
+
+    else:
+        print(f"Your final bill is: ${price_of_medium_pizza}")
 
 else:
-    print("N/A")
+    if add_pepperoni == "Y":
+        if extra_cheese == "Y":
+            print(f"Your final bill is: ${price_of_large_pizza + 4}")
+        else:
+            print(f"Your final bill is: ${price_of_large_pizza + 3}")
+
+    elif size == "L" and add_pepperoni == "N" and extra_cheese == "Y":
+        print(f"Your final bill is: ${price_of_large_pizza + 1}")
+
+    else:
+        print(f"Your final bill is: ${price_of_large_pizza}")
 
