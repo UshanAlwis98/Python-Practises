@@ -24,28 +24,28 @@
 
 # Control Flow Final Challange(Chat GPT Question)
 
-first_digit = input("Enter Digit 1\n")
-
-if first_digit == "4":
-    second_digit = input("Enter Digit 2\n")
-
-    if first_digit == "4" and second_digit == "8":
-        third_digit = input("Enter Digit 3\n")
-
-
-        if first_digit == "4" and second_digit == "8" and third_digit == "7":
-            fourth_digit = input("Enter Digit 4\n")
-
-            if first_digit == "4" and second_digit == "8" and third_digit == "7" and fourth_digit == "2":
-                print("✅ Code cracked! Welcome, Agent.")
-
-            else:
-                print("Wrong digit. Access denied!")
-
-        else:
-            print("Wrong digit. Access denied!")
-
-    else:
-        print("Wrong digit. Access denied!")
-else:
-    print("Wrong digit. Access denied!")
+# first_digit = input("Enter Digit 1\n")
+#
+# if first_digit == "4":
+#     second_digit = input("Enter Digit 2\n")
+#
+#     if first_digit == "4" and second_digit == "8":
+#         third_digit = input("Enter Digit 3\n")
+#
+#
+#         if first_digit == "4" and second_digit == "8" and third_digit == "7":
+#             fourth_digit = input("Enter Digit 4\n")
+#
+#             if first_digit == "4" and second_digit == "8" and third_digit == "7" and fourth_digit == "2":
+#                 print("✅ Code cracked! Welcome, Agent.")
+#
+#             else:
+#                 print("Wrong digit. Access denied!")
+#
+#         else:
+#             print("Wrong digit. Access denied!")
+#
+#     else:
+#         print("Wrong digit. Access denied!")
+# else:
+#     print("Wrong digit. Access denied!")
