@@ -133,37 +133,39 @@
 # print(f"Your final bill is:{Bill}")
 
 # Logical Operator Challange beginning
-print("The Love Calculator is calculating your score...")
-name1 = input() # What is your name?
-name2 = input() # What is their name?
-# 🚨 Don't change the code above 👆
-# Write your code below this line 👇
-# Count letters for TRUE
-combined_names = (name1 + name2).lower()
-t = combined_names.count("t")
-r = combined_names.count("r")
-u = combined_names.count("u")
-e = combined_names.count("e")
-true_score = t + r + u + e
+# print("The Love Calculator is calculating your score...")
+# name1 = input() # What is your name?
+# name2 = input() # What is their name?
+# # 🚨 Don't change the code above 👆
+# # Write your code below this line 👇
+# # Count letters for TRUE
+# combined_names = (name1 + name2).lower()
+# t = combined_names.count("t")
+# r = combined_names.count("r")
+# u = combined_names.count("u")
+# e = combined_names.count("e")
+# true_score = t + r + u + e
+#
+# # Count letters for LOVE
+# l = combined_names.count("l")
+# o = combined_names.count("o")
+# v = combined_names.count("v")
+# e2 = combined_names.count("e")
+# love_score = l + o + v + e2
+#
+# # Combine scores as string and convert back to int
+# final_score = int(str(true_score) + str(love_score))
+#
+# # Output based on score Condition
+# if final_score < 10 or final_score > 90:
+#     print(f"Your score is {final_score}, you go together like coke and mentos.")
+# elif 40 <= final_score <= 50:
+#     print(f"Your score is {final_score}, you are alright together.")
+# else:
+#     print(f"Your score is {final_score}.")
 
-# Count letters for LOVE
-l = combined_names.count("l")
-o = combined_names.count("o")
-v = combined_names.count("v")
-e2 = combined_names.count("e")
-love_score = l + o + v + e2
 
-# Combine scores as string and convert back to int
-final_score = int(str(true_score) + str(love_score))
-
-# Output based on score Condition
-if final_score < 10 or final_score > 90:
-    print(f"Your score is {final_score}, you go together like coke and mentos.")
-elif 40 <= final_score <= 50:
-    print(f"Your score is {final_score}, you are alright together.")
-else:
-    print(f"Your score is {final_score}.")
-
+# Final Project of Day 03
 
 
 
