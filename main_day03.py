@@ -156,7 +156,7 @@ love_score = l + o + v + e2
 # Combine scores as string and convert back to int
 final_score = int(str(true_score) + str(love_score))
 
-# Output based on score
+# Output based on score Condition
 if final_score < 10 or final_score > 90:
     print(f"Your score is {final_score}, you go together like coke and mentos.")
 elif 40 <= final_score <= 50:
