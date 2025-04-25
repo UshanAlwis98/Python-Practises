@@ -221,22 +221,29 @@
 # Chat GPT Challange
 
 
+
+
+
 passwordinput = input("Enter your password:")
 symbol = "!@#$%^&*()-_+="
+
 if len(passwordinput) >= 8:
-    if any(char.isdigit() for char in passwordinput) and any(char.isupper() for char in passwordinput) and any(char.islower() for char in passwordinput):
-        print("Digit and Uppercase and Lowercase Contained")
-        if symbol in passwordinput:
-            print("Symbol is included.")
+    if any(char.isdigit() for char in passwordinput):
+        if any(char.isupper() for char in passwordinput):
+            if any(char.islower() for char in passwordinput):
+                if any(char in symbol for char in passwordinput):
+                        print(f"Strong {passwordinput}")
+
+                else:
+                    print("No symbol contained in your password")
+            else:
+                print("Your password does not have an lowercase")
         else:
-            print("No symbol contained")
+            print("Your password does not have an uppercase")
     else:
-        print("No digit and Uppercase and Lowercase contained")
+        print("Your password does not have a digit")
 else:
     print("Your password does not have at least 8 characters")
-
-
-
 
 
 
