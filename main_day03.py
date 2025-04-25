@@ -222,9 +222,14 @@
 
 
 passwordinput = input("Enter your password:")
+symbol = "!@#$%^&*()-_+="
 if len(passwordinput) >= 8:
     if any(char.isdigit() for char in passwordinput) and any(char.isupper() for char in passwordinput) and any(char.islower() for char in passwordinput):
         print("Digit and Uppercase and Lowercase Contained")
+        if symbol in passwordinput:
+            print("Symbol is included.")
+        else:
+            print("No symbol contained")
     else:
         print("No digit and Uppercase and Lowercase contained")
 else:
