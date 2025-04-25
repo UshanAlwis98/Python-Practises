@@ -219,11 +219,6 @@
 #     print("Fall into a hole.Game Over.")
 
 # Chat GPT Challange
-
-
-
-
-
 passwordinput = input("Enter your password:")
 symbol = "!@#$%^&*()-_+="
 
