@@ -1,3 +1,4 @@
+
 # Control Flow
 # water_level = 90
 #
@@ -5,7 +6,7 @@
 #     print("Water Level is high")
 # else:
 #     print("Water level is low")
-from curses.ascii import isdigit
+
 
 # Nested If Statements
 # age = int(input("Enter your age\n"))
@@ -218,15 +219,16 @@ from curses.ascii import isdigit
 #     print("Fall into a hole.Game Over.")
 
 # Chat GPT Challange
+
+
 passwordinput = input("Enter your password:")
 if len(passwordinput) >= 8:
-    if any(char.isdigit() for char in passwordinput):
-        print("Digit Contained")
-
-    else
-
+    if any(char.isdigit() for char in passwordinput) and any(char.isupper() for char in passwordinput) and any(char.islower() for char in passwordinput):
+        print("Digit and Uppercase and Lowercase Contained")
+    else:
+        print("No digit and Uppercase and Lowercase contained")
 else:
-    print("Your Password has not contain at least 8 characters")
+    print("Your password does not have at least 8 characters")
 
 
 
