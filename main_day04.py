@@ -39,6 +39,14 @@ random_float = random.random()  #random.random() will give floating point number
 
 # Python Names Challenge with List,Randomization
 
+import  random
 my_names_list = input("Enter names\n")
+names_seperated = my_names_list.split(", ")
+names_count = len(names_seperated)
 
-len(my_names_list)
+name_random_index = random.randint(0,names_count-1)
+
+pick_a_name = names_seperated[name_random_index]
+print(f"Your randomely picked name is {pick_a_name}")
+
+
