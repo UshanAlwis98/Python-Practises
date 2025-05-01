@@ -57,4 +57,5 @@ random_float = random.random()  #random.random() will give floating point number
 
 states_of_america = [ "Arizona", "California", "Indiana", "Montana", "Nevada", "Washington"  ]
 total_states = len(states_of_america)
-print(total_states)
+
+print(states_of_america[total_states-1])
