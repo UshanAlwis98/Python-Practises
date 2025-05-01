@@ -59,3 +59,10 @@ states_of_america = [ "Arizona", "California", "Indiana", "Montana", "Nevada", "
 total_states = len(states_of_america)
 
 print(states_of_america[total_states-1])
+
+
+fruits = ["Apple", "Papaya", "Pineapple", "Orange", "Banana", "Water Melon"]
+vegetables = ["Brinjal", "Beans", "Leaks", "Union", "Potetos"]
+
+dry_drozen = [fruits,vegetables]
+print(dry_drozen)
