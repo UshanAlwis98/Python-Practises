@@ -69,3 +69,21 @@ random_float = random.random()  #random.random() will give floating point number
 
 
 # Treasure Map Challenge
+line1 = ["⬜️","️⬜️","️⬜️"]
+line2 = ["⬜️","⬜️","️⬜️"]
+line3 = ["⬜️️","⬜️️","⬜️️"]
+map = [line1, line2, line3]
+print("Hiding your treasure! X marks the spot.")
+position = input() # Where do you want to put the treasure?
+# 🚨 Don't change the code above 👆
+# Write your code below this row 👇
+
+if position[0] == "B":
+    line1[1] = "X"
+    print(line1[1])
+else:
+    print("Error")
+
+# Write your code above this row 👆
+# 🚨 Don't change the code below 👇
+print(f"{line1}\n{line2}\n{line3}")
