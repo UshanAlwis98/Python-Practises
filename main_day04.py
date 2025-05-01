@@ -55,14 +55,17 @@ random_float = random.random()  #random.random() will give floating point number
 #
 # print(states_of_america[6])
 
-states_of_america = [ "Arizona", "California", "Indiana", "Montana", "Nevada", "Washington"  ]
-total_states = len(states_of_america)
+# states_of_america = [ "Arizona", "California", "Indiana", "Montana", "Nevada", "Washington"  ]
+# total_states = len(states_of_america)
+#
+# print(states_of_america[total_states-1])
+#
+#
+# fruits = ["Apple", "Papaya", "Pineapple", "Orange", "Banana", "Water Melon"]
+# vegetables = ["Brinjal", "Beans", "Leaks", "Union", "Potetos"]
+#
+# dry_drozen = [fruits,vegetables]
+# print(dry_drozen)
 
-print(states_of_america[total_states-1])
 
-
-fruits = ["Apple", "Papaya", "Pineapple", "Orange", "Banana", "Water Melon"]
-vegetables = ["Brinjal", "Beans", "Leaks", "Union", "Potetos"]
-
-dry_drozen = [fruits,vegetables]
-print(dry_drozen)
+# Treasure Map Challenge
