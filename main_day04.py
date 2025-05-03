@@ -77,12 +77,11 @@ print("Hiding your treasure! X marks the spot.")
 position = input() # Where do you want to put the treasure?
 # 🚨 Don't change the code above 👆
 # Write your code below this row 👇
+letter = ["A", "B", "C"]
+Letter_index = letter.index(position[0].upper())
+Number_index = int(position[1]) -1
 
-if position[0] == "B":
-    line1[1] = "X"
-    print(line1[1])
-else:
-    print("Error")
+map[Number_index][Letter_index] = "X"
 
 # Write your code above this row 👆
 # 🚨 Don't change the code below 👇
