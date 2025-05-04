@@ -101,4 +101,4 @@ def is_odd(x):
 odd_numbers = filter(is_odd, flattened)
 
 for x in odd_numbers:
-  print(x)
+  print(x*x)
