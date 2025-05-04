@@ -92,16 +92,13 @@ random_float = random.random()  #random.random() will give floating point number
 # ChatGPT Python list challenge
 from itertools import chain
 data = [[1, 2, 3], [4, 5], [6, 7, 8, 9]]
-res = list(chain(*data))
+flattened = list(chain(*data))
 
 
-def myFunc(x):
-    if x % 2 == 0:
-        return False
-    else:
-        return True
+def is_odd(x):
+    return x % 2 != 0
 
-odd_number = filter(myFunc, data)
+odd_numbers = filter(is_odd, flattened)
 
-for x in odd_number:
+for x in odd_numbers:
   print(x)
