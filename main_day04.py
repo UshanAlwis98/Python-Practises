@@ -90,3 +90,5 @@ random_float = random.random()  #random.random() will give floating point number
 
 
 # ChatGPT Python list challenge
+data = [[1, 2, 3], [4, 5], [6, 7, 8, 9]]
+data.filter()
