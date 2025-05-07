@@ -105,9 +105,14 @@ random_float = random.random()  #random.random() will give floating point number
 
 # ChatGPT Challenge 2 accepted.
 data = [5, 12, 7, 3, 9, 15, 4]
+
 data.append(10)
 print(data)
 data.remove(data[0])
 print(data)
 data.insert(1,20)
 print(data)
+data[2] = 100  # Replace third element
+new_list = data[-3:]  # Last 3 elements
+print(data)
+print(new_list)
