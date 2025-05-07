@@ -110,7 +110,7 @@ data.append(10)
 print(data)
 data.remove(data[0]) #Remove first element
 print(data)
-data.insert(1,20)
+data.insert(1,20) # Put 20 as second element
 print(data)
 data[2] = 100  # Replace third element
 new_list = data[-3:]  # Last 3 elements
