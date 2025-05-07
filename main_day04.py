@@ -108,7 +108,7 @@ data = [5, 12, 7, 3, 9, 15, 4]
 
 data.append(10)
 print(data)
-data.remove(data[0])
+data.remove(data[0]) #Remove first element
 print(data)
 data.insert(1,20)
 print(data)
