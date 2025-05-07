@@ -90,17 +90,20 @@ random_float = random.random()  #random.random() will give floating point number
 
 
 # ChatGPT Python list challenge 01
-from itertools import chain
-data = [[1, 2, 3], [4, 5], [6, 7, 8, 9]]
-flattened = list(chain(*data))
+# from itertools import chain
+# data = [[1, 2, 3], [4, 5], [6, 7, 8, 9]]
+# flattened = list(chain(*data))
+#
+#
+# def is_odd(x):
+#     return x % 2 != 0
+#
+# odd_numbers = filter(is_odd, flattened)
+#
+# for x in odd_numbers:
+#   print(x*x)
 
-
-def is_odd(x):
-    return x % 2 != 0
-
-odd_numbers = filter(is_odd, flattened)
-
-for x in odd_numbers:
-  print(x*x)
-
-  # ChatGPT Challenge 2 accepted.
+# ChatGPT Challenge 2 accepted.
+data = [5, 12, 7, 3, 9, 15, 4]
+data.append(10)
+print(data)
