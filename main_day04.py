@@ -117,7 +117,7 @@ data = [5, 12, 7, 3, 9, 15, 4]
 # print(data)
 # print(new_list)
 
-# Rock paper scissors challenge accepted.
+# Rock paper scissors challenge
 rock = '''
     _______
 ---'   ____)
@@ -147,3 +147,5 @@ scissors = '''
 
 #Write your code below this line 👇
 print("What do you choose? Type 0 for Rock,1 for paper or 2 for scissor")
+elements = [rock, paper, scissors]
+print(elements[1])
