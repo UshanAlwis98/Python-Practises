@@ -106,13 +106,44 @@ random_float = random.random()  #random.random() will give floating point number
 # ChatGPT Challenge 2 accepted.
 data = [5, 12, 7, 3, 9, 15, 4]
 
-data.append(10)
-print(data)
-data.remove(data[0]) #Remove first element
-print(data)
-data.insert(1,20) # Put 20 as second element
-print(data)
-data[2] = 100  # Replace third element
-new_list = data[-3:]  # Last 3 elements
-print(data)
-print(new_list)
+# data.append(10)
+# print(data)
+# data.remove(data[0]) #Remove first element
+# print(data)
+# data.insert(1,20) # Put 20 as second element
+# print(data)
+# data[2] = 100  # Replace third element
+# new_list = data[-3:]  # Last 3 elements
+# print(data)
+# print(new_list)
+
+# Rock paper scissors challenge accepted.
+rock = '''
+    _______
+---'   ____)
+      (_____)
+      (_____)
+      (____)
+---.__(___)
+'''
+
+paper = '''
+    _______
+---'   ____)____
+          ______)
+          _______)
+         _______)
+---.__________)
+'''
+
+scissors = '''
+    _______
+---'   ____)____
+          ______)
+       __________)
+      (____)
+---.__(___)
+'''
+
+#Write your code below this line 👇
+print("What do you choose? Type 0 for Rock,1 for paper or 2 for scissor")
