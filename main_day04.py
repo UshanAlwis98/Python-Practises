@@ -149,6 +149,7 @@ scissors = '''
 print("What do you choose? Type 0 for Rock,1 for paper or 2 for scissor")
 elements = [rock, paper, scissors]
 user_input = input()
+# Logic
 if user_input == "1":
     print((elements[0]))
 elif user_input == "2":
