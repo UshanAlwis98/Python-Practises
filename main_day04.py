@@ -148,4 +148,10 @@ scissors = '''
 #Write your code below this line 👇
 print("What do you choose? Type 0 for Rock,1 for paper or 2 for scissor")
 elements = [rock, paper, scissors]
-print(elements[1])
+user_input = input()
+if user_input == "1":
+    print((elements[0]))
+elif user_input == "2":
+    print((elements[1]))
+else:
+    print((elements[2]))
