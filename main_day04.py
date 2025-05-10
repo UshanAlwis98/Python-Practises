@@ -159,3 +159,7 @@ else:
     print((elements[2]))
 
 print(f"Computer choose{random.choice(elements)} ")
+
+# Main Logic
+if user_input == random.choice(elements):
+    print("You are not loose or won.")
