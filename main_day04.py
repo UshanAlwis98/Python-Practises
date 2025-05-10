@@ -146,6 +146,7 @@ scissors = '''
 '''
 
 #Write your code below this line 👇
+import random
 print("What do you choose? Type 0 for Rock,1 for paper or 2 for scissor")
 elements = [rock, paper, scissors]
 user_input = input()
@@ -156,3 +157,5 @@ elif user_input == "2":
     print((elements[1]))
 else:
     print((elements[2]))
+
+print(f"Computer choose{random.choice(elements)} ")
