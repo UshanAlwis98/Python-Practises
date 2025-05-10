@@ -163,3 +163,5 @@ print(f"Computer choose{random.choice(elements)} ")
 # Main Logic
 if user_input == random.choice(elements):
     print("You are not loose or won.")
+elif random.choice(elements) == "rock" and user_input == "paper":
+    print("You are won")
