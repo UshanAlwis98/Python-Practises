@@ -158,7 +158,8 @@ elif user_input == "2":
 else:
     print((elements[2]))
 
-print(f"Computer choose{random.choice(elements)} ")
+computer_chose = random.choice(elements)
+print(f"Computer choose{computer_chose} ")
 
 # Main Logic
 if user_input == random.choice(elements):
