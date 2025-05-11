@@ -158,11 +158,17 @@ elif user_input == "2":
 else:
     print((elements[2]))
 
-computer_chose = random.choice(elements)
-print(f"Computer choose{computer_chose} ")
+computer_choice = random.choice(elements)
+print(f"Computer choose{computer_choice}")
 
 # Main Logic
-if user_input == random.choice(elements):
-    print("You are not loose or won.")
-elif random.choice(elements) == "rock" and user_input == "paper":
-    print("You are won")
+if user_input == computer_choice:
+    print("It's a tie.")
+elif computer_choice == "rock" and user_input == "paper":
+    print("You won!")
+elif computer_choice == "paper" and user_input == "scissors":
+    print("You won!")
+elif computer_choice == "scissors" and user_input == "rock":
+    print("You won!")
+else:
+    print("You lost!")
