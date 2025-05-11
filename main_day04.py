@@ -161,7 +161,7 @@ else:
 computer_choice = random.choice(elements)
 print(f"Computer choose{computer_choice}")
 
-# Main Logic
+# Game Logic
 if user_input == computer_choice:
     print("It's a tie.")
 elif computer_choice == "rock" and user_input == "paper":
