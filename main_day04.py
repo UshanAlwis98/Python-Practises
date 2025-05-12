@@ -152,11 +152,11 @@ elements = ["rock", "paper", "scissors"]
 user_input = input()
 # Logic
 if user_input == "1":
-    print((elements[0]))
+    print(rock)
 elif user_input == "2":
-    print((elements[1]))
+    print(paper)
 else:
-    print((elements[2]))
+    print(scissors)
 
 computer_choice = random.choice(elements)
 print(f"Computer choose{computer_choice}")
