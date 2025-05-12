@@ -148,7 +148,7 @@ scissors = '''
 #Write your code below this line 👇
 import random
 print("What do you choose? Type 0 for Rock,1 for paper or 2 for scissor")
-elements = [rock, paper, scissors]
+elements = ["rock", "paper", "scissors"]
 user_input = input()
 # Logic
 if user_input == "1":
@@ -164,11 +164,11 @@ print(f"Computer choose{computer_choice}")
 # Game Logic
 if user_input == computer_choice:
     print("It's a tie.")
-elif computer_choice == "rock" and user_input == "paper":
+elif computer_choice == "rock" and user_input == "2":
     print("You won!")
-elif computer_choice == "paper" and user_input == "scissors":
+elif computer_choice == "paper" and user_input == "3":
     print("You won!")
-elif computer_choice == "scissors" and user_input == "rock":
+elif computer_choice == "scissors" and user_input == "1":
     print("You won!")
 else:
     print("You lost!")
