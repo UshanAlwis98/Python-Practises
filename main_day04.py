@@ -147,29 +147,62 @@ scissors = '''
 
 #Write your code below this line 👇
 import random
-print("What do you choose? Type 0 for Rock,1 for paper or 2 for scissor")
-elements = ["rock", "paper", "scissors"]
-elements_for_computer = [rock, paper, scissors]
+
+rock = '''
+    _______
+---'   ____)
+      (_____)
+      (_____)
+      (____)
+---.__(___)
+'''
+
+paper = '''
+    _______
+---'   ____)____
+          ______)
+          _______)
+         _______)
+---.__________)
+'''
+
+scissors = '''
+    _______
+---'   ____)____
+          ______)
+       __________)
+      (____)
+---.__(___)
+'''
+
+# Display prompt
+print("What do you choose? Type 1 for Rock, 2 for Paper, or 3 for Scissors.")
+
+# User input
 user_input = input()
-# Logic
-if user_input == "1":
-    print(rock)
-elif user_input == "2":
-    print(paper)
-else:
-    print(scissors)
 
-computer_choice = random.choice(elements_for_computer)
-print(f"Computer choose {computer_choice}")
-
-# Game Logic
-if user_input == computer_choice:
-    print("It's a tie.")
-elif computer_choice == elements_for_computer[0] and user_input == "2":
-    print("You won!")
-elif computer_choice == elements_for_computer[1] and user_input == "3":
-    print("You won!")
-elif computer_choice == elements_for_computer[2] and user_input == "1":
-    print("You won!")
+# Validate and convert input
+if user_input not in ["1", "2", "3"]:
+    print("Invalid input. Please enter 1, 2, or 3.")
 else:
-    print("You lost!")
+    user_choice = int(user_input) - 1  # Convert to 0-based index
+    elements_ascii = [rock, paper, scissors]
+    elements_name = ["rock", "paper", "scissors"]
+
+    print("You chose:")
+    print(elements_ascii[user_choice])
+
+    computer_choice = random.randint(0, 2)
+
+    print("Computer chose:")
+    print(elements_ascii[computer_choice])
+
+    # Game logic
+    if user_choice == computer_choice:
+        print("It's a tie.")
+    elif (user_choice == 0 and computer_choice == 2) or \
+         (user_choice == 1 and computer_choice == 0) or \
+         (user_choice == 2 and computer_choice == 1):
+        print("You won!")
+    else:
+        print("You lost!")
