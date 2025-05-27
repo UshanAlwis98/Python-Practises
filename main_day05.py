@@ -29,4 +29,11 @@
 # print(f"Average height of the students {average_height_of_students}")
 
 
-# ChatGPT Python List and For Loop Challenge
+# ChatGPT Python List and For Loop Challenge Find the Most Frequent Element in a List
+
+elements = input().split()
+for n in range(0, len(elements)):
+    elements[n] = int(elements[n])
+
+for frequentNumber in elements:
+    print(frequentNumber)
