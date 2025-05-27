@@ -23,4 +23,4 @@ for n in range(0, len(student_heights)):
 total_height = 0
 for height in student_heights:
     total_height += height
-print(f"Total height is =  {total_height}")
+print(f"Total height is {total_height}")
