@@ -31,12 +31,20 @@
 
 # ChatGPT Python List and For Loop Challenge Find the Most Frequent Element in a List
 
-elements = input().split()
-for n in range(0, len(elements)):
-    elements[n] = int(elements[n])
+elements = input("Enter numbers separated by space: ").split()
+for i in range(len(elements)):
+    elements[i] = int(elements[i])
 
-for frequentNumber in elements:
-    if frequentNumber == elements[n]:
-        print(f"most frequent element{frequentNumber}")
-    else:
-        print("there are no frequent number")
+max_count = 0
+most_frequent = elements[0]
+
+for i in range(len(elements)):
+    count = 0
+    for j in range(len(elements)):
+        if elements[i] == elements[j]:
+            count += 1
+    if count > max_count:
+        max_count = count
+        most_frequent = elements[i]
+
+print(f"Most frequent element: {most_frequent} (appeared {max_count} times)")
