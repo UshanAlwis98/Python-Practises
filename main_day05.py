@@ -36,4 +36,7 @@ for n in range(0, len(elements)):
     elements[n] = int(elements[n])
 
 for frequentNumber in elements:
-    print(frequentNumber)
+    if frequentNumber == elements[n]:
+        print(f"most frequent element{frequentNumber}")
+    else:
+        print("there are no frequent number")
