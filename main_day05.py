@@ -39,7 +39,7 @@ max_count = 0
 most_frequent = elements[0]
 
 for i in range(len(elements)):
-      count = 0
+    count = 0
     for j in range(len(elements)):
         if elements[i] == elements[j]:
             count += 1
